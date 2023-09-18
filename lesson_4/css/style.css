@@ -1,0 +1,108 @@
+@import url("reset.css");
+
+body {
+	color: rgb(59, 43, 21);
+}
+header {
+	color:rgb(88, 168, 201);
+}
+ul {
+	color:rgb(226, 43, 202);
+}
+a {
+	color:rgb(226, 43, 58);
+}
+.header {
+	color:blue;
+}
+.header__nav {
+	color:blueviolet;
+}
+.header__nav-item {
+	color:rgb(67, 226, 43);
+}
+main {
+	color:rgb(59, 93, 92);
+
+}
+.main {
+	color:rgb(43, 226, 205);
+}
+.name {
+	color:rgb(34, 45, 107);
+
+}
+#name {
+	color:rgb(200, 0, 255);
+}
+.name__title {
+	color:rgb(29, 74, 35);
+}
+li {
+	color:rgb(255, 89, 0);
+}
+div {
+	color:rgb(0, 0, 0);
+
+}
+.name__image {
+	color:rgb(43, 49, 226);
+}
+.characteristics {
+	color:rgb(226, 43, 104);
+}
+.characteristics-title {
+	color:rgb(226, 125, 43);
+}
+.characteristics__list {
+	color:blueviolet;
+}
+.characteristics__list-item {
+	color:rgb(70, 226, 43);
+}
+.about {
+	color:rgb(109, 107, 111);
+
+}
+.about__title {
+	color:blueviolet;
+}
+.about__description {
+	color:rgb(226, 125, 43);
+}
+.about__link {
+	color:rgb(0, 83, 6);
+}
+.hobie {
+	color:rgb(223, 226, 43);
+}
+.hobie__title {
+	color:blueviolet;
+}
+.hobie__list {
+	color:rgb(41, 163, 126);
+}
+.hobie__list-item {
+	color:rgb(205, 195, 106);
+}
+a {
+	color:rgb(43, 226, 192);
+}
+.footer {
+	color:blueviolet;
+}
+p {
+	color:rgb(83, 43, 226);
+}
+mark {
+	color:rgb(83, 43, 226);
+}
+.footer__title {
+	color:rgb(0, 0, 0);
+}
+.footer__span {
+	color:rgb(43, 226, 58);
+}
+.footer__image {
+	color:blueviolet;
+}
