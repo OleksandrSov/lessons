@@ -1,0 +1,78 @@
+/* обнулення */
+@import url("reset.css");
+
+/* шрифти */
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* DM Serif Text */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+/* font-family: 'DM Serif Text', serif; */
+
+/* стилі */
+body {
+	max-width: 1600px;
+	margin: 0 auto;
+	font-family: 'Inter', sans-serif;
+	color: #474747;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #FFF9F4;
+}
+.header__nav {
+	background-color: #0E333D;
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 140px;
+}
+.header__nav_item {
+	text-transform: uppercase;
+	color: blue;
+	text-decoration: underline;
+	padding: 15px 30px;
+	border: 1px solid blue;
+	background-color: #33c6ee;
+	border-radius: 15px;
+}
+.section {
+	display: flex;
+	gap: 48px;
+	max-width: 1169px;
+	margin: 0 auto;
+}
+
+.section__texts {
+	min-width: 563px;
+}
+.section__texts_title {
+	color: #D06B00;
+	font-size: 28px;
+	margin-bottom: 13px;
+}
+.section__texts_sub-title {
+	color: #0E333D;
+	font-family: "DM Serif Text";
+	font-size: 59px;
+	line-height: 146.5%;
+	margin-bottom: 25px;
+}
+.section__texts_par {
+	line-height: 180%;
+}
+.section__images {
+	min-width: 568px;
+	display: flex;
+	gap: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
