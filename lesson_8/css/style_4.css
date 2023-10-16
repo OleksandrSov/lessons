@@ -1,0 +1,146 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@font-face {
+	font-family: "CoreSansC";
+	src:
+		url("../fonts/CoreSansC-75ExtraBold.woff2") format("woff2"),
+		url("../fonts/CoreSansC-75ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Causten";
+	src:
+		url("../fonts/Causten-Light.woff2") format("woff2"),
+		url("../fonts/Causten-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Causten";
+	src:
+		url("../fonts/Causten-Semi-Bold.woff2") format("woff2"),
+		url("../fonts/Causten-Semi-Bold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+.body {
+	max-width: 1920px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.header {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	display: block;
+	border: 1px solid goldenrod;
+	background-color: darkgreen;
+	margin-bottom: 100px;
+}
+.header__menu {
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+.header__menu_list {
+	
+	display: inline-block;
+}
+.header__menu_item {
+	text-transform: capitalize;
+	padding: 20px 20px;
+	display: inline-block;
+	color: goldenrod;
+	font-size: 20px;
+}
+.header__menu_item:hover {
+	text-decoration: underline;
+	color: rgb(243, 255, 20);
+}
+/* -------------------main--------------------------- */
+
+.main {
+	max-width: 1440px;
+	background: #FFF;
+	margin: 0 auto;
+}
+.euphoria {
+	max-width: 1270px;
+	padding: 0 15px;
+	margin: 0 auto 100px;
+	display: flex;
+
+}
+.euphoria__promo {
+	background: url('../img/pictures_4/bg_1.png') no-repeat;
+	background-size: cover;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	color: #FFF;
+	font-style: normal;
+
+	max-width: 614px;
+	padding: 183px 74px 174px;
+}
+.euphoria__promo_title {
+	text-transform: uppercase;
+	font-family: 'CoreSansC', sans-serif;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 50px;
+	letter-spacing: 0.208px;
+
+	max-width: 466px;
+	margin-bottom: 30px;
+}
+.euphoria__promo_text-box {
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: 1px;
+
+	max-width: 451px;
+	margin-bottom: 50px;
+}
+.euphoria__promo_link {
+	display: inline-block;
+	width: fit-content;
+
+	color: #3C4242;
+	font-family: 'Causten', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+
+	padding: 12px 44px;
+	background: #FFFFFF;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	transition: 0.5s;
+}
+.euphoria__promo_link:hover {
+	color: #ffffff;
+	background: url('../img/pictures_4/bg_1.png') no-repeat;
+	border-color: #FFF;
+	transition: 0.6s;
+	text-decoration: underline;
+} 
+.euphoria__photo {
+	flex: 1;
+	background: url('../img/pictures_4/bg_2.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	max-width: 626px;
+	min-height: 100%;
+}

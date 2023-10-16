@@ -1,0 +1,118 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.body {
+	max-width: 1920px;
+	margin: 0 auto;
+	background-color: darkgreen;
+	background-image: url('../img/img_0.png') ;
+	background-repeat: no-repeat;
+	background-position: 5% 23%;
+	background-attachment: fixed;
+
+
+}
+.header {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	display: block;
+	border: 1px solid goldenrod;
+}
+.header__menu {
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+.header__menu_list {
+	
+	display: inline-block;
+}
+.header__menu_item {
+	text-transform: capitalize;
+	padding: 20px 20px;
+	display: inline-block;
+	color: goldenrod;
+	font-size: 20px;
+}
+.header__menu_item:hover {
+	text-decoration: underline;
+	color: rgb(243, 255, 20);
+}
+
+/* main */
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 150px 15px;
+	min-height: 100vh;
+	background-image: url('../img/img_1.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.div {
+	display: inline-block;
+	margin: 15px;
+	border: 1px solid rgb(225, 255, 1);
+	min-width: 150px;
+	min-height: 150px;
+}
+.div_1 {
+	background-color: yellowgreen;
+	background-color: rgb(91, 131, 12);
+	background-color: rgb(91, 131, 12, 0.5);
+}
+.div_2 {
+	background-image: url('../img/img_1.png');
+}
+.div_3 {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,64,9,1) 35%, rgba(0,212,255,1) 100%);
+}
+.div_4 {
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.div_5 {
+	background: linear-gradient(225deg, rgba(63,94,251,1) 50%, rgba(146,222,157,1) 100%);
+}
+.div_6 {
+	background-image: url('../img/pictures_1/circle.png');
+}
+.div_7 {
+	background-color:rgb(94, 28, 169);
+	background-image: url('../img/pictures_1/circle.png');
+	background-repeat: no-repeat;
+}
+.div_8 {
+	background-color:antiquewhite;
+	background-image: url('../img/pictures_1/circle.png');
+	background-repeat: repeat-x;
+}
+.div_9 {
+	background-color:rgb(38, 169, 28);
+	background-image: url('../img/pictures_1/circle.png');
+	background-repeat: repeat-y;
+}
+.div_10 {
+		background-color:rgb(235, 239, 10);
+		background-image: url('../img/pictures_1/circle.png');
+		background-repeat: no-repeat;
+		background-position: center;
+}
+.div_11 {
+	background-image: url('../img/img_2.png');
+	background-size: cover;
+}
+.div_12 {
+	background-image: url('../img/img_3.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.div_13 {
+	background-image: url('../img/img_4.png');
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+.div_14 {
+	background: #dafc00  url('../img/img_5.png') center / 35px no-repeat;
+}
