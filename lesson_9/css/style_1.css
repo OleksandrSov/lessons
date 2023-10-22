@@ -1,0 +1,115 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+
+.body {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.header {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	display: block;
+	border: 1px solid goldenrod;
+	background-color: darkgreen;
+}
+.header__menu {
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+.header__menu_list {
+	display: inline-block;
+}
+.header__menu_item {
+	text-transform: capitalize;
+	margin: 20px 20px;
+	display: inline-block;
+	color: goldenrod;
+	font-size: 20px;
+}
+.header__menu_item:hover {
+	text-decoration: underline;
+	color: rgb(243, 255, 20);
+}
+/* ----------------------main------------------------ */
+
+.main {
+	max-width: 1920px;
+	padding: 150px 15px;
+	display: flex;
+	justify-content:flex-end;
+}
+
+.consulting {
+	max-width: 692px;
+
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	color: #7D7D7D;
+	line-height: 146.187%;
+}
+
+.poppins {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 127%;
+}
+
+.consulting__title {
+	color: #37393F;
+	font-size: 30px;
+
+	margin-bottom: 3px;
+}
+.consulting__text-box {
+	margin-bottom: 40px;
+}
+.consulting__text-box_par {
+	padding-bottom: 15px;
+}
+.consulting__subtitle {
+	color: #6B77E5;
+
+	margin-bottom: 12px;
+}
+.consulting__benefits {
+	display: flex;
+	gap: 29px;
+}
+.consulting__benefits_image {
+	background: url('../img/img_1/1.png') 0 0 no-repeat;
+	min-height: 261px;
+	min-width: 331px;
+}
+.consulting__benefits_subtitle {
+	color: #37393F;
+	font-size: 25px;
+	line-height: 1;
+	margin-bottom: 14px;
+}
+.consulting__benefits_text {
+	color: #40DDB6;
+
+	margin-bottom: 20px;
+}
+.consulting__benefits_list-item {
+	margin-left: 35px;
+	position: relative;
+}
+.consulting__benefits_list-item:not(:last-child) {
+	margin-bottom: 35px;
+}
+.consulting__benefits_list-item::before {
+	content: '';
+	background: url('../img/img_1/2.png');
+	position: absolute;
+	height: 27px;
+	width: 27px;
+	top: 0;
+	left: -35px;
+}

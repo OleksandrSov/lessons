@@ -1,0 +1,138 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+
+
+
+.body {
+	max-width: 1920px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.header {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	display: block;
+	border: 1px solid goldenrod;
+	background-color: darkgreen;
+	margin-bottom: 100px;
+}
+.header__menu {
+	padding: 20px 0px;
+	text-align: center;
+}
+.header__menu_list {
+	
+	display: inline-block;
+}
+.header__menu_item {
+	text-transform: capitalize;
+	padding: 20px 20px;
+	display: inline-block;
+	color: goldenrod;
+	font-size: 20px;
+}
+.header__menu_item:hover {
+	text-decoration: underline;
+	color: rgb(243, 255, 20);
+}
+/* -------------------main--------------------------- */
+.main {
+	background: #FFF;
+
+
+}
+.jewels {
+	max-width: 1630px;
+	padding: 15px;
+	margin: 0 auto;
+
+	font-family: 'Cormorant Infant', serif;
+	color: #000;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%;
+
+	display: flex;
+	gap: 3px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.jewels__title {
+	max-width: 488px;
+	font-size: 60px;
+	line-height: 115%;
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: 109px;
+
+	/* align-self: center; */
+}
+.jewels__title::after {
+	content: '';
+	display: inline-block;
+
+	position: absolute;
+	width: 61%;
+	height: 3px;
+	background: #78473B;
+	bottom: -6px;
+	left: 0;
+}
+.jewels__cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 55px;
+}
+.jewels__cards_item {
+	display: flex;
+	flex-direction: column;
+}
+.jewels__cards .jewels__cards_item:not(:last-child){
+	margin-top: 41px;
+}
+.jewels__cards_item-box {
+	width: 334px;
+	height: 381px;
+	border: 1px solid #000;
+	margin-bottom: 25px;
+}
+.jewels__cards_item-box--1 {
+	position: relative;
+}
+.jewels__cards_item-box--1::before{
+	content: '';
+	display: inline-block;
+
+	background-image: url('../img/img_4/1.png');
+	position: absolute;
+	width: 334px;
+	height: 381px;
+	top: 9px;
+	left: 10px;
+}
+.jewels__cards_item-box--2 {
+	position: relative;
+}
+.jewels__cards_item-box--2::before{
+	content: '';
+	display: inline-block;
+
+	background-image: url('../img/img_4/2.png');
+	position: absolute;
+	width: 334px;
+	height: 381px;
+	top: 9px;
+	left: 10px;
+}
+.jewels__cards_item-subtitle {
+	margin-bottom: 4px; 
+}
+.jewels__cards_item-title {
+	font-size: 46px;
+	line-height: 113%;
+	margin-bottom: 40px;
+}

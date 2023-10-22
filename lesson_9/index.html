@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Lesson 9</title>
+</head>
+<body class="body">
+	<header class="header">
+		<ul class="header__menu">
+			<li class="header__menu_list">
+				<a  class="header__menu_item" href="index.html">Home</a>
+			</li>
+			<li class="header__menu_list">
+				<a  class="header__menu_item" href="page_1.html">#1</a>
+			</li>
+			<li class="header__menu_list">
+				<a  class="header__menu_item" href="page_2.html">#2</a>
+			</li>
+			<li class="header__menu_list">
+				<a  class="header__menu_item" href="page_3.html">#3</a>
+			</li>
+			<li class="header__menu_list">
+				<a  class="header__menu_item" href="page_4.html">#4</a>
+			</li>
+		</ul>
+	</header>
+	<main class="main">
+		<section class="practice">
+
+			<a class="link" href="#">Link to >>> </a>
+
+			<p class="practice__par-1">
+				Lorem ipsum dolor, sit amet<a class="link_2" href="#">consectetur</a> adipisicing elit. Tenetur, commodi. Lorem ipsum dolor, sit amet<a class="link_2" href="#">consectetur</a> adipisicing elit. Tenetur, commodi. Lorem ipsum dolor, sit amet<a class="link_2" href="#">consectetur</a> adipisicing elit. Tenetur, commodi. Lorem ipsum dolor, sit amet<a class="link_2" href="#">consectetur</a> adipisicing elit. Tenetur, commodi. Lorem ipsum dolor, sit amet<a class="link_2" href="#">consectetur</a> adipisicing elit. Tenetur, commodi. Lorem ipsum dolor, sit amet<a class="link_2" href="#">consectetur</a> adipisicing elit. Tenetur, commodi.
+			</p>
+
+			<div class="hover-exemple">
+				<div class="hover-exemple__item">visibility: hidden;</div>
+				<div class="hover-exemple__item-2">display: none;</div>
+				<div class="hover-exemple__item-3">
+					visibility: hidden;
+					opacity: 0;
+				</div>
+			</div>
+
+			<a class="link-3" href="#">.link-3:active </a>
+
+			<a class="link-4" href="#">.link-4:visited </a>
+
+			<a class="link link-5" href="#">.link-5:focus </a>
+
+
+			<a class="open-box" href="#box">Показати блок</a>
+
+			<div id="box" class="box">
+				.box {
+				visibility: hidden;
+				}
+				.box:target {
+					visibility: visible;
+				}
+			</div>
+
+
+			<a class="open-box" href="#box-1">Показати блок #1</a>
+			<a class="open-box" href="#box-2">Показати блок #2</a>
+			<a class="open-box" href="#box-3">Показати блок #3</a>
+
+			<div class="container-for-boxes">
+				<div id="box-1" class="box">1</div>
+				<div id="box-2" class="box">2</div>
+				<div id="box-3" class="box">3</div>
+			</div>
+
+
+
+
+			<div class="text-box">
+				<!-- <h1>
+					Псевдокласи положення в коді<br>
+					.text-box *:first-child {<br>
+						text-align: center;<br>
+					}
+				</h1> -->
+
+				<p class="text-box__par">
+					<span>1</span><br>
+					.text-box p:first-child {<br>
+						color:rgb(255, 255, 255);<br>
+						border: 1px solid rgb(255, 255, 255);<br>
+						background-color: #000000;<br>
+					}
+					<br>
+					<br>
+					.text-box p:first-of-type {<br>
+						color:rgb(255, 255, 255);<br>
+						border: 1px solid rgb(255, 255, 255);<br>
+						background-color: #000000;<br>
+					}
+				</p>
+
+				<p class="text-box__par">
+					<span>2</span><br>
+					.text-box p:nth-child(2){<br>
+						border: 3px dotted rgb(247, 0, 255);<br>
+					}
+				</p>
+
+				<p class="text-box__par">
+					<span>3</span><br>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis tenetur, amet maxime libero eaque aperiam magnam esse eum ex, cumque, adipisci dolorem! Illum similique qui aperiam, odio accusantium quasi.
+				</p>
+
+				<p class="text-box__par">
+					<span>4</span><br>
+					.text-box p:last-child {<br>
+						background-image: url('../img/img_1.png');<br>
+					} <br>
+					<br>
+					.text-box p:last-of-type { <br>
+						text-transform: uppercase;<br>
+					}
+				</p>
+
+				<p class="text-box__par">
+					<span>5</span><br>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis tenetur, amet maxime libero eaque aperiam magnam esse eum ex, cumque, adipisci dolorem! Illum similique qui aperiam, odio accusantium quasi.
+				</p>
+
+				<p class="text-box__par">
+					<span>6</span><br>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis tenetur, amet maxime libero eaque aperiam magnam esse eum ex, cumque, adipisci dolorem! Illum similique qui aperiam, odio accusantium quasi.
+				</p>
+
+				<p class="text-box__par">
+					<span>7</span><br>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis tenetur, amet maxime libero eaque aperiam magnam esse eum ex, cumque, adipisci dolorem! Illum similique qui aperiam, odio accusantium quasi.
+				</p>
+
+				<p class="text-box__par">
+					<span>8</span><br>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis tenetur, amet maxime libero eaque aperiam magnam esse eum ex, cumque, adipisci dolorem! Illum similique qui aperiam, odio accusantium quasi.
+				</p>
+
+				<p class="text-box__par">
+					<span>9</span><br>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis tenetur, amet maxime libero eaque aperiam magnam esse eum ex, cumque, adipisci dolorem! Illum similique qui aperiam, odio accusantium quasi.
+				</p>
+
+				<h6>Title type 6</h6>
+			</div>
+
+
+
+
+			<section class="section">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit asperiores qui modi quae dolor necessitatibus temporibus ab accusantium suscipit neque!
+				</p>
+			</section>
+
+			<h2 class="deco-title">Hello!</h2>
+
+		</section>
+
+
+
+		<ul class="list">
+			<li class="list__item">Item 1</li>
+			<li class="list__item">
+				Item 2
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod assumenda tempora, rerum totam a perferendis possimus corporis. Voluptatibus nesciunt sint at, beatae, laboriosam quasi accusamus quia fugit eius assumenda ullam!
+			</li>
+			<li class="list__item">Item 3</li>
+			<li class="list__item">Item 4</li>
+		</ul>
+
+
+
+
+
+
+	</main>
+	<footer class="footer">
+
+	</footer>
+</body>
+</html>

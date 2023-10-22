@@ -1,0 +1,202 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+/* -------------------------------------------------------------- */
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Regular.woff2') format('woff2'),	
+	url('../fonts/Causten-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Bold.woff2') format('woff2'),	
+	url('../fonts/Causten-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Core Sans C';
+	src: 
+	url('../fonts/CoreSansC-55Medium.woff2') format('woff2'),	
+	url('../fonts/CoreSansC-55Medium.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+/* -------------------------------------------------------------- */
+
+
+
+
+.body {
+	background-color: #fff;
+	
+	color: #7D7D7D;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 146.187%;
+
+	max-width: 1950px;
+	margin: 0 auto;
+}
+.header {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	display: block;
+	border: 1px solid goldenrod;
+	background-color: darkgreen;
+	margin-bottom: 100px;
+}
+.header__menu {
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+.header__menu_list {
+	display: inline-block;
+}
+.header__menu_item {
+	text-transform: capitalize;
+	padding: 20px 20px;
+	display: inline-block;
+	color: goldenrod;
+	font-size: 20px;
+}
+.header__menu_item:hover {
+	text-decoration: underline;
+	color: rgb(243, 255, 20);
+}
+/* -----------------------------main---------------------------- */
+
+.main {
+	padding: 0 15px;
+}
+.consulting {
+	max-width: 1220px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.consulting__title {
+	color: #37393F;
+	font-weight: 500;
+	line-height: normal;
+
+	display: inline-block;
+
+	position: relative;
+
+	margin-bottom: 16px;
+}
+.consulting__title::before {
+	content: '';
+
+	display: inline-block;
+	background: #40DDB6;
+
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	top: 5px;
+	left: -18px;
+}
+.consulting__subtitle {
+	color: #37393F;
+
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 121%;
+
+	margin-bottom: 77px;
+}
+.consulting__cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 31px;
+}
+.consulting__cards_item {
+	background: #F4F4F4;
+	max-width: 386px;
+	padding: 58px 43px;
+
+	position: relative;
+}
+.consulting__cards_item--1::before {
+	content: '';
+	background-image: url('../img/img_3/icon_1.png') ;
+	display: inline-block;
+
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	top: -37px;
+	left: 40%;
+}
+.consulting__cards_item--2::before {
+	content: '';
+	background-image: url('../img/img_3/icon_2.png') ;
+	display: inline-block;
+
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	top: -37px;
+	left: 40%;
+}
+.consulting__cards_item--3::before {
+	content: '';
+	background-image: url('../img/img_3/icon_3.png') ;
+	display: inline-block;
+
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	top: -37px;
+	left: 40%;
+}
+.consulting__cards_subtitle {
+	color: #37393F;
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 127%;
+
+	margin-bottom: 16px;
+}
+.consulting__cards_par {
+	margin-bottom: 37px;
+
+}
+.consulting__cards_link {
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #6B77E5;
+
+	padding: 4px 15px;
+	border-radius: 40px;
+	transition: all 0.4s;
+}
+
+.consulting__cards_link:hover {
+	text-decoration: underline;
+	background:rgba(64, 221, 182, 0.5);
+}
