@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 11</title>
+</head>
+<body class="body">
+<!-- ________________________________________header_________________________________________ -->
+	<header class="header">
+		<img class="header__logo" src="img/header/logo_header.svg" alt="Euphoria logo">
+
+		<nav class="header__nav">
+			<ul class="header__list">
+				<!-- <li class="header__list_item"></li> я б назвав так, але схоже що це "спроба ієрархіЇ" -->
+				<li><a class="header__list-item" href="#">Shop</a></li>
+				<li><a class="header__list-item" href="#">Men</a></li>
+				<li><a class="header__list-item" href="#">Women</a></li>
+				<li><a class="header__list-item" href="#">Combos</a></li>
+				<li><a class="header__list-item" href="#">Joggers</a></li>
+			</ul>
+		</nav>
+
+		<input class="header__search" placeholder="Search" type="search">
+
+		<div class="header__options">
+			<a class="header__options-link" href="#">
+				<img src="img/header/icon_heart.svg" alt="icon">
+			</a>
+			<a class="header__options-link" href="#">
+				<img src="img/header/icon_user.svg" alt="icon">
+			</a>
+			<a class="header__options-link" href="#">
+				<img src="img/header/icon_cart.svg" alt="icon">
+			</a>
+		</div>
+	</header>
+<!-- ________________________________________main___________________________________________ -->
+	<main>
+<!-- ________________________________section product-desc___________________________________ -->
+		<section class="shop">
+			<!-- <h1 class="shop__title">Euphoria shopping</h1> -->
+			<div class="slider">
+				<div class="slider__item">
+					<img src="img/main/main__content/product_1.jpg" alt="product">
+				</div>
+				<div class="slider__item">
+					<img src="img/main/main__content/product_2.jpg" alt="product">
+				</div>
+				<div class="slider__item">
+					<img src="img/main/main__content/product_3.jpg" alt="product">
+				</div>
+
+				<div class="slider__buttons">
+					<button class="slider__buttons-up"></button>
+					<button class="slider__buttons-down"></button>
+				</div>
+
+				<div class="slider__big-picture">
+					<img src="img/main/main__content/product_2_big_version.jpg" alt="">
+				</div>
+			</div>
+
+
+			<menu class="shop__menu">
+				<li class="shop__menu-item">
+					<a href="#">Shop</a>
+					<img src="img/main/main__icons/icon_arrow_right.svg" alt="arrow right">
+				</li>
+				<li class="shop__menu-item">
+					<a href="#">Women</a>
+					<img src="img/main/main__icons/icon_arrow_right.svg" alt="arrow right">
+				</li>
+				<li class="shop__menu-item">
+					<a href="#">Top</a>
+				</li>
+			</menu>
+			
+<!-- ______________________Не знаю як це має бути організовано чи розташовано_______________ -->
+			<h2 class="shop__subtitle">Raven Hoodie With Black colored Design</h2>
+
+			<div class="shop__rating">
+				<img src="img/main/main__icons/icon_star.svg" alt="star">
+				<img src="img/main/main__icons/icon_star.svg" alt="star">
+				<img src="img/main/main__icons/icon_star.svg" alt="star">
+				<img src="img/main/main__icons/icon_star.svg" alt="star">
+				<img src="img/main/main__icons/icon_star.svg" alt="star">
+				<span class="shop__rating-text">3.5</span>
+			</div>
+
+			<div class="shop__comments">
+				<img src="img/main/main__icons/icon_comment.svg" alt="comment icon">
+				<span class="shop__comments-text">120 comment</span>
+			</div>
+
+			<div class="size">
+				<p class="size__text">Select Size</p>
+				<a class="size__link" href="#">Size Guide <img src="img/main/main__icons/icon_arrow_right2.svg" alt="arrow right"></a>
+				<div class="size__buttons">
+					<button type="button">XS</button>
+					<button type="button">S</button>
+					<button type="button">M</button>
+					<button type="button">L</button>
+					<button type="button">XL</button>
+				</div>
+			</div>
+
+			<div class="colours">
+				<p class="colours__text">Colours Available</p>
+				<button class="colours__button"></button>
+				<button class="colours__button"></button>
+				<button class="colours__button"></button>
+				<button class="colours__button"></button>
+			</div>
+
+			<div class="cart">
+				<button class="cart__add">Add to cart</button>
+				<p class="cart__price">$63.00</p>
+			</div>
+
+			<div class="advantages">
+				<div class="advantages__item">
+					<img src="img/main/main__icons/icon_credit_cart.svg" alt="credit card">
+					<span class="advantages__item-text">Secure payment</span>
+				</div>
+				<div class="advantages__item">
+					<img src="img/main/main__icons/icon_t-shirt.svg" alt="credit card">
+					<span class="advantages__item-text">Size & Fit</span>
+				</div>
+				<div class="advantages__item">
+					<img src="img/main/main__icons/icon_truck.svg" alt="credit card">
+					<span class="advantages__item-text">Free shipping</span>
+				</div>
+				<div class="advantages__item">
+					<img src="img/main/main__icons/icon_returns.svg" alt="credit card">
+					<span class="advantages__item-text">Free Shipping & Returns</span>
+				</div>
+			</div>
+		</section>
+ <!-- _________________________________section product-desc_________________________________ -->
+		<section class="product-desc">
+			<h2 class="product-desc__title">Product Description</h2>
+
+			<div class="product-desc__links">
+				<a class="product-desc__links-item" href="#">Description</a>
+				<div class="product-desc__links-wrapper">
+					<a class="product-desc__links-item" href="#">User comments</a>
+					<span>21</span>
+				</div>
+				<div class="product-desc__links-wrapper">
+					<a class="product-desc__links-item" href="#">Question & Answe</a>
+					<span>4</span>
+				</div>
+			</div>
+
+			<p class="product-desc__text">
+				100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. Infinite range of matte-finish HD prints.
+			</p>
+
+
+			<!-- Це таблиця мaє бути? -->
+			<div class="info">
+				<div class="info__item">
+					<span class="info__item-header">Fabric</span>
+					<p class="info__item-description">Bio-washed Cotton</p>
+				</div>
+
+				<div class="info__item">
+					<span class="info__item-header">Pattern</span>
+					<p class="info__item-description">Printed</p>
+				</div>
+
+				<div class="info__item">
+					<span class="info__item-header">Fit</span>
+					<p class="info__item-description">Regular-fit</p>
+				</div>
+
+				<div class="info__item">
+					<span class="info__item-header">Neck</span>
+					<p class="info__item-description">Round Neck</p>
+				</div>
+
+				<div class="info__item">
+					<span class="info__item-header">Sleeve</span>
+					<p class="info__item-description">Half-sleeves</p>
+				</div>
+
+				<div class="info__item">
+					<span class="info__item-header">Style</span>
+					<p class="info__item-description">Casual Wear</p>
+				</div>
+			</div>
+
+			<!-- також не знаю як це має бути організовано -->
+			<video class="video-player">
+				<source src="#" type="video/webm" />
+			</video>
+		</section>
+ <!-- ____________________________section similar-products_________________________________ -->
+		<section class="similar-products">
+			<a class="similar-products__cart">
+				<img src="img/main/main__content/products_galery/product_1.jpg" alt="production">
+				<h6 class="similar-products__cart-name">White T-Shirt</h6>
+				<span class="similar-products__cart-brand">Priya’s Brand</span>
+				<span class="similar-products__cart-price">$13.00</span>
+			</a>
+			<a class="similar-products__cart">
+				<img src="img/main/main__content/products_galery/product_2.jpg" alt="production">
+				<h6 class="similar-products__cart-name">White T-Shirt</h6>
+				<span class="similar-products__cart-brand">Priya’s Brand</span>
+				<span class="similar-products__cart-price">$13.00</span>
+			</a>
+
+			<a class="similar-products__cart">
+				<img src="img/main/main__content/products_galery/product_3.jpg" alt="production">
+				<h6 class="similar-products__cart-name">White T-Shirt</h6>
+				<span class="similar-products__cart-brand">Priya’s Brand</span>
+				<span class="similar-products__cart-price">$13.00</span>
+			</a>
+
+			<a class="similar-products__cart">
+				<img src="img/main/main__content/products_galery/product_4.jpg" alt="production">
+				<h6 class="similar-products__cart-name">White T-Shirt</h6>
+				<span class="similar-products__cart-brand">Priya’s Brand</span>
+				<span class="similar-products__cart-price">$13.00</span>
+			</a>
+
+			<a class="similar-products__cart">
+				<img src="img/main/main__content/products_galery/product_5.jpg" alt="production">
+				<h6 class="similar-products__cart-name">White T-Shirt</h6>
+				<span class="similar-products__cart-brand">Priya’s Brand</span>
+				<span class="similar-products__cart-price">$13.00</span>
+			</a>
+
+			<a class="similar-products__cart">
+				<img src="img/main/main__content/products_galery/product_6.jpg" alt="production">
+				<h6 class="similar-products__cart-name">White T-Shirt</h6>
+				<span class="similar-products__cart-brand">Priya’s Brand</span>
+				<span class="similar-products__cart-price">$13.00</span>
+			</a>
+
+			<a class="similar-products__cart">
+				<img src="img/main/main__content/products_galery/product_7.jpg" alt="production">
+				<h6 class="similar-products__cart-name">White T-Shirt</h6>
+				<span class="similar-products__cart-brand">Priya’s Brand</span>
+				<span class="similar-products__cart-price">$13.00</span>
+			</a>
+
+			<a class="similar-products__cart">
+				<img src="img/main/main__content/products_galery/product_8.jpg" alt="production">
+				<h6 class="similar-products__cart-name">White T-Shirt</h6>
+				<span class="similar-products__cart-brand">Priya’s Brand</span>
+				<span class="similar-products__cart-price">$13.00</span>
+			</a>
+		</section>
+	</main>
+<!-- __________________________________________footer_______________________________________ -->
+	<footer class="footer">
+		<div class="chapters">
+			<div class="chapters__unit">
+				<h5 class="chapters__subtitle">Need Help</h5>
+				<ul class="chapters__list">
+					<li class="chapters__item">Contact Us</li>
+					<li class="chapters__item">Track Order</li>
+					<li class="chapters__item">Returns & Refunds</li>
+					<li class="chapters__item">FAQ's</li>
+					<li class="chapters__item">Career</li>
+				</ul>
+			</div>
+			<div class="chapters__item">
+				<h5 class="chapters__subtitle">Company</h5>
+				<ul class="chapters__list">
+					<li class="chapters__list-item">Contact Us</li>
+					<li class="chapters__list-item">Track Order</li>
+					<li class="chapters__list-item">Returns & Refunds</li>
+					<li class="chapters__list-item">FAQ's</li>
+					<li class="chapters__list-item">Career</li>
+				</ul>
+			</div>
+			<div class="chapters__item">
+				<h5 class="chapters__subtitle">More Info</h5>
+				<ul class="chapters__list">
+					<li class="chapters__list-item">Contact Us</li>
+					<li class="chapters__list-item">Track Order</li>
+					<li class="chapters__list-item">Returns & Refunds</li>
+					<li class="chapters__list-item">FAQ's</li>
+				</ul>
+			</div>
+			<div class="chapters__item">
+				<h5 class="chapters__subtitle">Location</h5>
+				<ul class="chapters__list">
+					<li class="chapters__list-item">Contact Us</li>
+					<li class="chapters__list-item">Track Order</li>
+					<li class="chapters__list-item">Returns & Refunds</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer__links">
+			<div class="socials">
+				<ul class="socials__list">
+					<li><a class="socials__list-item" href="#"><img src="img/footer/icon_facebook.svg" alt="icon"></a></li>
+					<li><a class="socials__list-item" href="#"><img src="img/footer/icon_instagram.svg" alt="icon"></a></li>
+					<li><a class="socials__list-item" href="#"><img src="img/footer/icon_twitter.svg" alt="icon"></a></li>
+					<li><a class="socials__list-item" href="#"><img src="img/footer/icon_in.svg" alt="icon"></a></li>
+				</ul>
+			</div>
+	
+			<div class="app">
+				<h4 class="app__subtitle">Download The App</h4>
+				<div class="app__links">
+					<a class="app__links-item" href="#"><img src="img/footer/logo_google_play.svg" alt="logo"></a>
+					<a class="app__links-item" href="#"><img src="img/footer/logo_app_store.svg" alt="logo"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="categories">
+			<button class="categories__button" type="menu">Popular Categories<img src="img/footer/icon_arrow_down.svg" alt="arrow down"></button>
+		</div>
+
+		<p class="copyright">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+	</footer>
+</body>
+</html>
+
+
