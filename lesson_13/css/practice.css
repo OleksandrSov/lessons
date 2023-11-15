@@ -37,7 +37,7 @@
 	height: 100px;
 	/* background-color: #daa520; */
 	margin: 30px;
-	background-image: url('/img/1.svg');
+	background-image: url('/img/img_1.svg');
 	transition: all 0.5s;
 }
 .objects__object-1:hover {
