@@ -32,7 +32,7 @@
 	display: inline-block;
 	width: 100px;
 	height: 100px;
-	background-color: #daa520;
+	/* background-color: #daa520; */
 	margin: 30px;
 	background-image: url('/img/1.svg');
 	transition: all 0.5s;
