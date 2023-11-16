@@ -1,0 +1,512 @@
+@import url("reset.css");
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+.header {
+	background-color: rgb(0, 145, 255);
+	min-height: 50vh;
+
+	position: relative;
+}
+.header__link {
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	text-decoration: underline;
+}
+.header__link:hover {
+	color: goldenrod;
+}
+/* __________________________________________clouds____________________________________ */
+.sun {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: goldenrod;
+	border: 2px sollid transparent;
+
+	position: absolute;
+	left: 50%;
+	top: 1%;
+
+	animation: sun 6s linear infinite;
+}
+.sun:hover {
+	border: 2px solid #FFF500;
+}
+@keyframes sun {
+	0% {
+		background-color: goldenrod;
+	}
+	50% {
+		background-color: rgb(206, 218, 32);
+	}
+	100% {
+		background-color: goldenrod;
+	}
+}
+.cloud {
+	display: inline-block;
+	padding: 30px;
+	
+	position: relative;
+}
+
+.cloud__part-1 {
+
+}
+.cloud__part-2 {
+	
+}
+.cloud__part-3 {
+	
+}
+.cloud-1 {
+	position: absolute;
+	top: 2%;
+	left: 2%;
+
+	animation: cloud1 4s linear infinite;
+}
+@keyframes cloud1 {
+	0% {
+		top: -5px;
+	}
+	50% {
+		top: 0px;
+	}
+	100% {
+		top: -5px;
+	}
+}
+.cloud__part {
+	background-color: #B3B3B3;
+	display: block;
+	width: 110px;
+	height: 50px;
+	border-radius: 50px;
+	border-bottom: 1px solid #000000;
+}
+.cloud-1__part-1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cloud-1__part-2 {
+}
+.cloud-1__part-3 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.cloud-2 {
+	position: absolute;
+	top: 55%;
+	left: 15%;
+
+	animation: cloud2 6s linear infinite;
+}
+@keyframes cloud2 {
+	0% {
+		top: 140px;
+	}
+	25% {
+		left: 130px;
+	}
+	50% {
+		top: 130px;
+	}
+	100% {
+		top: 140px;
+	}
+}
+.cloud-2__part-1 {
+
+}
+.cloud-2__part-2 {
+}
+.cloud-2__part-3 {
+}
+.cloud-3 {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	transform: scaleX(-1);
+	
+	animation: cloud3 6s linear infinite;
+}
+@keyframes cloud3 {
+	0% {
+		top: 40%;
+	}
+	25% {
+		left: 37%;
+	}
+	50% {
+		top: 43%;
+	}
+	100% {
+		top: 40%;
+	}
+}
+.cloud-3__part-1 {
+}
+.cloud-3__part-2 {
+}
+.cloud-3__part-3 {
+}
+.cloud-4 {
+	position: absolute;
+	top: 4%;
+	left: 55%;
+
+	animation: cloud4 6s linear infinite;
+}
+@keyframes cloud4 {
+	0% {
+		top: 4%;
+	}
+	25% {
+		left: 57%;
+	}
+	50% {
+		top: 6%;
+	}
+	100% {
+		top: 4%;
+	}
+}
+.cloud-4__part-1 {
+}
+.cloud-4__part-2 {
+}
+.cloud-4__part-3 {
+}
+.cloud-5 {
+	position: absolute;
+	top: 20%;
+	left: 80%;
+	transform: scaleX(-1);
+
+	animation: cloud5 6s linear infinite;
+}
+@keyframes cloud5 {
+	0% {
+		top: 20%;
+	}
+	25% {
+		left: 82%;
+	}
+	50% {
+		top: 22%;
+	}
+	100% {
+		top: 20%;
+	}
+}
+.cloud-5__part-1 {
+}
+.cloud-5__part-2 {
+}
+.cloud-5__part-3 {
+}
+/* __________________________________________clouds end____________________________________ */
+/* __________________________________________main____________________________________ */
+.main	{
+	background-color: #AFA763;
+	min-height: 40vh;
+
+	position: relative;
+}
+/* ___________________________________________tank_________________________________ */
+.tank {
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 0px 200px 25px 100px;
+	background-color: darkgreen;
+
+	position: absolute;
+	width: 30%;
+	height: 35%;
+	top: 40%;
+	left: 25%;
+
+	z-index: 30;
+
+	animation: shake 10s ease-in-out infinite alternate;
+
+}
+@keyframes shake {
+	0% {
+		top: 40%;
+		left: 25%;
+	}
+	25% {
+		left: 20%;
+	}
+	50% {
+		top: 20%;
+	}
+	75% {
+		left: 35%;
+	}
+	100% {
+		top: 40%;
+		left: 25%;
+	}
+}
+.tower {
+	background-color: darkgreen;
+	border-radius: 50px 50px 0px 0px;
+	border: 1px solid black;
+	position: absolute;
+	width: 30%;
+	height: 35%;
+	top: -35%;
+	left: 25%;
+}
+.tower__cannon {
+	background-color: darkgreen;
+	border: 1px solid black;
+	border-left: transparent;
+	position: absolute;
+	width: 150%;
+	height: 50%;
+	top: 35%;
+	left: 90%;
+}
+.shot {
+
+}
+
+.whizzbang {
+	background-color: rgb(0, 0, 0);
+	border: 1px solid rgb(161, 0, 0);
+	border-radius: 50%;
+	position: absolute;
+	width: 7%;
+	height: 90%;
+	top: 5%;
+	left: 115%;
+
+	animation-name: shot;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+@keyframes shot {
+	0% {
+		left: 120%;
+	}
+	100% {
+		left: 860%;
+	}
+}
+.whizzbang-lines {
+}
+.whizzbang-lines__line {
+	display: inline-block;
+	background-color: rgb(0, 0, 0);
+	width: 10px;
+	height: 1px;
+}
+.whizzbang-lines__line1 {
+	position: absolute;
+	top: -50%;
+	left: -60%;
+}
+.whizzbang-lines__line2 {
+	position: absolute;
+	top: 100%;
+	left: -160%;
+}
+.whizzbang-lines__line3 {
+	position: absolute;
+	top: 180%;
+	left: 0%;
+}
+.whizzbang-lines__line4 {
+	position: absolute;
+	top: 190%;
+	left: -160%;
+}
+.whizzbang-lines__line5 {
+	position: absolute;
+	top: 50%;
+	left: -170%;
+}
+.fury {
+
+	position: absolute;
+	top: 10%;
+	left: 30%;
+
+	animation: color 6s linear infinite;
+}
+@keyframes color {
+	0% {
+		color:#ffffff;
+	}
+	50% {
+		color:#ff0000;
+	}
+	100% {
+		color:#ffffff;
+	}
+}
+.crawler {
+	background-color: darkgreen;
+	border-radius: 60px;
+	display: inline-block;
+
+	outline: 1px solid #000;
+	border: 6px dashed #000;
+	position: absolute;
+	width: 95%;
+	height: 50%;
+	bottom: -20%;
+	left: 3%;
+}
+/* ____________________________________________wheel__________________________________ */
+.wheel {
+	display: inline-block;
+	
+	position: absolute;
+	width: 9%;
+	height: 98%;
+	outline: 1px solid #000;
+	border: 2px dashed rgb(0, 0, 0);
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(105,105,105,1) 0%, rgba(28,80,6,1) 100%);
+
+	animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.wheel-1 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+.wheel-2 {
+	position: absolute;
+	top: 0%;
+	left: 10%;
+}
+.wheel-3 {
+	position: absolute;
+	top: 0%;
+	left: 20%;
+}
+.wheel-4 {
+	position: absolute;
+	top: 0%;
+	left: 30%;
+}
+.wheel-5 {
+	position: absolute;
+	top: 0%;
+	left: 40%;
+}
+.wheel-6 {
+	position: absolute;
+	top: 0%;
+	left: 50%;
+}
+.wheel-7 {
+	position: absolute;
+	top: 0%;
+	left: 60%;
+}
+.wheel-8 {
+	position: absolute;
+	top: 0%;
+	left: 70%;
+}
+.wheel-9 {
+	position: absolute;
+	top: 0%;
+	left: 80%;
+}
+.wheel-10 {
+	position: absolute;
+	top: 0%;
+	left: 90%;
+}
+/* ____________________________________________wheel end________________________________ */
+
+
+/* ___________________________________________tank end _____________________________ */
+/* _______________________________________lines____________________________________ */
+.lines {
+	
+}
+.lines__line {
+	display: inline-block;
+	height: 3px;
+	width: 20%;
+	background-color: #333333;
+
+	animation-name: linesmove;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.lines__line-1 {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+
+	
+}
+@keyframes linesmove {
+	0% {
+		left: 100%;
+	}
+	100% {
+		left: 0;
+	}
+}
+.lines__line-2 {
+	position: absolute;
+	top: 50%;
+	left: 75%;
+
+	animation-duration: 2s;
+}
+.lines__line-3 {
+	position: absolute;
+	bottom: 3%;
+	left: 35%;
+
+	animation-duration: 1.5s;
+}
+/* _______________________________________lines end____________________________________ */
+
+
+.footer {
+	min-height: 10vh;
+	background-color: #1B6700
+}
+
+
+
+
+
+
+
