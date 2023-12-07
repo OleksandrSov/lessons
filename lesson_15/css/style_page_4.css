@@ -1,0 +1,207 @@
+@import url("reset.css");
+@import url("style.css");
+
+
+
+@font-face {
+	font-family: 'Core Sans C';
+	src: 
+	url('../fonts/CoreSansC-55Medium.woff2') format('woff2'),	
+	url('../fonts/CoreSansC-55Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Medium.woff2') format('woff2'),	
+	url('../fonts/Causten-Medium.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Regular.woff2') format('woff2'),	
+	url('../fonts/Causten-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Semi-Bold.woff') format('woff2'),	
+	url('../fonts/Causten-Semi-Bold.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+.orders {
+	color: #BEBCBD;
+	font-family: 'Causten', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	display: flex;
+	flex-direction: column;
+
+	max-width: 895px;
+
+}
+.orders__title {
+	text-align: left;
+	margin-bottom: 50px;
+
+	color: #3C4242;
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 33.5px;
+	letter-spacing: 0.56px;
+}
+.buttons {
+	display: flex;
+	/* justify-content: space-between; */
+	gap: 234px;
+
+	border-bottom: 3px solid #F6F6F6;
+	margin-bottom: 50px;
+}
+.buttons__button {
+	color: #3C4242;
+
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 33.5px;
+	letter-spacing: 0.44px;
+
+	background-color: transparent;
+	border-bottom: 3px solid transparent;
+
+	cursor: pointer;
+	
+	position: relative;
+	top: 2px;
+}
+.buttons__button:hover {
+	opacity: 0.5;
+}
+.buttons__button_active {
+	padding: 12px 53px;
+	background-color: #F6F6F6;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 3px solid #3C4242;
+}
+/* .order {
+	
+} */
+.order__info {
+	background-color: #F6F6F6;
+	padding: 28px 47px;
+	margin-bottom: 30px;
+}
+.order__num {
+	color: #3C4242;
+	font-size: 20px;
+	font-weight: 600;
+
+	margin-bottom: 14px;
+}
+.order__box {
+	display: flex;
+	justify-content: space-between;
+}
+/* .order__left {
+} */
+.order__date {
+	color: #807D7E;
+	font-weight: 600;
+}
+.order__date:not(:last-child) {
+	margin-bottom: 7px;
+ }
+.order__span {
+	font-weight: 400;
+}
+.order__right {
+	text-align: right;
+}
+.product {
+	display: flex;
+	align-items: center;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #EDEEF2;
+	margin-bottom: 30px;
+}
+.product__imagebox {
+	width: 96px;
+	height: 96px;
+	margin-right: 25px;
+}
+.product__imagebox:hover{
+	opacity: 0.5;
+}
+.product__texts {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	justify-content: space-between;
+	margin-right: 487px;
+}
+.product__name {
+	margin-top: 3px;
+	color: #3C4242;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.product__name:hover {
+	color: #8A33FD;
+	text-decoration: underline;
+}
+.product__color {
+	color: #3C4242;
+	font-weight: 600;
+}
+.product__span {
+	color: #BEBCBD;
+	font-size: 14px;
+}
+.product__quantity {
+	color: #3C4242;
+	font-weight: 600;
+}
+.product__price {
+	font-weight: 600;
+}
+.product__detail {
+	font-size: 18px;
+	color: #FFF;
+	font-weight: 500;
+
+	width: 144px;
+	height: 50px;
+	
+	border: 1px solid transparent;
+	border-radius: 8px;
+	background: #8A33FD;
+}
+
+.product__detail:hover {
+	color: #8A33FD;
+	border: 1px solid #8A33FD;
+	background: #ffffff;
+}

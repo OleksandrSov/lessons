@@ -1,0 +1,141 @@
+@import url("reset.css");
+@import url("style.css");
+
+
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Bold.woff2') format('woff2'),	
+	url('../fonts/Causten-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Core Sans C';
+	src: 
+	url('../fonts/CoreSansC-55Medium.woff2') format('woff2'),	
+	url('../fonts/CoreSansC-55Medium.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Medium.woff2') format('woff2'),	
+	url('../fonts/Causten-Medium.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Regular.woff2') format('woff2'),	
+	url('../fonts/Causten-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.main {
+	margin: 0 auto;
+	padding: 100px 100px;
+}
+.wishlist {
+	color: #3C4242;
+	font-family: 'Causten', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.44px;
+
+	max-width: 903px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+}
+.wishlist__title {
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 33.5px;
+	letter-spacing: 0.56px;
+
+	margin-bottom: 50px;
+	text-align: left;
+}
+.wishlist__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+.product {
+	display: flex;
+	align-items: center;
+}
+.product__close {
+	background-image: url('../img/wishlist/close_button.svg');
+	background-repeat: no-repeat;
+	background-position: 50%;
+	width: 14px;
+	height: 14px;
+	background-color: transparent;
+	margin-right: 40px;
+}
+.product__close:hover {
+	opacity: 0.5;
+}
+.product__imagebox {
+	margin-right: 36px;
+}
+.product__imagebox:hover {
+	opacity: 0.5;
+}
+.product__texts {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+
+	margin-right: 160px;
+}
+.product__name:hover {
+	text-decoration: underline;
+}
+/* .product__color {
+} */
+.product__span {
+	color: #807D7E;
+	font-weight: 500;
+}
+/* .product__quantity {
+} */
+.product__price {
+	color: #807D7E;
+	margin-right: 50px;
+}
+.product__add {
+	color: #FFF;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: normal;
+	white-space: nowrap;
+
+	padding: 14px 28px;
+	border-radius: 8px;
+	background: #8A33FD;
+	border: 1px solid transparent;
+}
+
+.product__add:hover{
+	color: #8A33FD;
+	background: #ffffff;
+	border: 1px solid #8A33FD;
+}

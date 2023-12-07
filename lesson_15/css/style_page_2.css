@@ -1,0 +1,107 @@
+@import url("reset.css");
+@import url("style.css");
+
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Regular.woff2') format('woff2'),	
+	url('../fonts/Causten-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Core Sans C';
+	src: 
+	url('../fonts/CoreSansC-55Medium.woff2') format('woff2'),	
+	url('../fonts/CoreSansC-55Medium.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+main {
+	padding: 0px 15px;
+}
+.header {
+	max-width: 1270px;
+	border: 1px solid #BEBCBD;
+	padding: 34px 60px 31px;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+
+	font-family: 'Causten', sans-serif;
+	line-height: normal;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 600;
+}
+/* .header__logo {
+	margin-right: 140px;
+} */
+.header__logo:hover{
+	opacity: 0.5;
+}
+.header__input {
+	padding: 12px 48px;
+	border-radius: 8px;
+	background-color: #F6F6F6;
+
+	color: #807D7E;
+	text-align: center;
+
+	/* margin-right: 210px; */
+	background-image: url('../img/header/search_icon.svg');
+	background-repeat: no-repeat;
+	background-position: 33% 50%;
+}
+.header__input:hover {
+	background-color: #d9d9d9;
+}
+.header__language {
+	color: #333;
+	font-weight: 400;
+	/* margin-right: 60px; */
+	padding-right: 19px;
+
+	background-image: url('../img/header/arrow_down.svg');
+	background-repeat: no-repeat;
+	background-position: 97.7% 50%;
+}
+.header__language:hover {
+	background-color: #e5e5e5;
+}
+.header__login {
+	color: #FFF;
+	font-weight: 600;
+
+	padding: 12px 48px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	background: #8A33FD;
+
+	/* margin-right: 29px; */
+}
+.header__login:hover {
+	color: #8A33FD;
+	border: 1px solid #8A33FD;
+	background: #FFF;
+}
+.header__sign {
+	color: #8A33FD;
+	font-weight: 600;
+
+	padding: 12px 48px;
+	border-radius: 8px;
+	background: #FFF;
+	border: 1px solid #8A33FD;
+}
+.header__sign:hover {
+	color: #FFF;
+	background: #8A33FD;
+}

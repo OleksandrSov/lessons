@@ -1,0 +1,134 @@
+@import url("reset.css");
+
+@font-face {
+	font-family: 'Core Sans C';
+	src: 
+	url('../fonts/CoreSansC-55Medium.woff2') format('woff2'),	
+	url('../fonts/CoreSansC-55Medium.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Bold.woff2') format('woff2'),	
+	url('../fonts/Causten-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: 
+	url('../fonts/Causten-Medium.woff2') format('woff2'),	
+	url('../fonts/Causten-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+.body {
+	margin: 0 auto;
+	max-width: 1440px;
+	font-family: 'Causten', sans-serif;
+	color: #2A2F2F;
+	font-size: 17.875px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 27.93px;
+	letter-spacing: -0.715px;
+}
+header {
+	padding: 20px;
+	background-color: rgb(255, 255, 215);
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+h1 {
+	font-size: 25px;
+	text-align: center;
+}
+.menu {
+	display: flex;
+	gap: 40px;
+	flex-wrap: wrap;
+	font-size: 25px;
+}
+.menu__link:hover {
+	text-decoration: underline;
+	opacity: 0.5;
+	transition: all 0.3s;
+}
+/* _____________________________________main____________________________ */
+main {
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.categories {
+	max-width: 1240px;
+}
+.categories__title {
+	color: #3C4242;
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 33.5px;
+	letter-spacing: 0.68px;
+	padding-left: 26px;
+	background-image: url(../img/categories/rectangle.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+
+	margin-bottom: 70px;
+}
+.categories__cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+}
+.categories__card {
+	display: flex;
+	/* flex: 1 0 25%; */
+	max-width: 270px;
+	flex-direction: column;
+
+	/* background-color: #febfbf; */
+	/* border: 1px solid black; */
+}
+.card__img {
+	margin-bottom: 15px;
+}
+/* img {
+	width: 100%;
+} */
+.card__img:hover {
+	opacity: 0.5;
+}
+.card__box {
+display: flex;
+justify-content: space-between;
+}
+.card__box:hover {
+	opacity: 0.5;
+	text-decoration: underline;
+}
+/* .card__product {
+} */
+.card__arrow {
+	margin-top: 10px;
+}
+.card__explore {
+	color: #7F7F7F;
+	font-size: 13.407px;
+	font-weight: 600;
+	line-height: 27.93px;
+	letter-spacing: -0.536px;
+}
+.card__explore:hover {
+	color: #434343;
+	text-decoration: underline;
+}
