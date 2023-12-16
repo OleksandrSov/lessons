@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16 Forms</title>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- #########################################container 1 START######################################### -->
+		<div class="container1">
+			<h1 class="container1__title">Contact Us</h1>
+
+			<h2 class="container1__subtitle">Request A Call Back !</h2>
+
+
+			<form class="form1" method="GET" action="#">
+				<div class="form1__columns">
+					<div class="form1__column">
+						<div class="form1__row">
+							<input class="form1__input" id="username" type="text" name="username" placeholder="Your Name">
+						</div>
+						
+						<div class="form1__row">
+							<input class="form1__input" id="tel" type="tel" name="phone" placeholder="Phone Number">
+						</div>
+					</div>
+						
+					
+					<div class="form1__column">
+						<div class="form1__row">
+							<input class="form1__input" id="email" type="email" name="email" placeholder="Email Addres">
+						</div>
+			
+						<div class="form1__row">
+							<input class="form1__input" id="subject" type="text" name="subject" placeholder="Subject">
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+				<div class="form1__row-full">
+					<textarea class="form1__textarea" name="massage" id="massage" placeholder="Message..." cols="30" rows="10"></textarea>
+				</div>
+
+				<input class="form1__submit" type="submit" value="Submit">
+			</form>
+		</div>
+		<!-- #########################################container 1 END ######################################### -->
+
+
+
+		<!-- #########################################container 2 START ######################################### -->
+		<div class="container2">
+			<h2 class="container2__title title">My Info</h2>
+
+			<h2 class="container2__subtitle title">Add Address</h2>
+
+			<form class="form2" method="GET" action="#">
+				<div class="form2__columns">
+						<!-- ____________________column 1______________________ -->
+					<div class="form2__column">
+						<div class="form2__row">
+							<label class="form2__label" for="first_name">First Name*</label>
+							<input class="form2__input" id="first_name" type="text" name="first_name" required placeholder="First Name">
+						</div>
+							
+						<div class="form2__row">
+							<label class="form2__label" for="country">Country / Region*</label>
+							<input class="form2__input" id="country" type="text" name="country" required placeholder="Country / Region">
+						</div>
+
+						<div class="form2__row">
+							<label class="form2__label" for="street">Street Address*</label>
+							<input class="form2__input" id="street" type="text" name="street" required placeholder="House number and street name">
+						</div>
+
+						<div class="form2__row">
+							<label class="form2__label" for="city">City*</label>
+							<input class="form2__input" id="city" type="text" name="city" required placeholder="Town / City">
+						</div>
+
+						<div class="form2__row">
+							<label class="form2__label" for="tel2">Phone*</label>
+							<input class="form2__input" id="tel2" type="tel" name="tel" required placeholder="Phone">
+						</div>
+					</div>
+						<!-- ____________________column 1______________________ -->
+
+						<!-- ____________________column 2______________________ -->
+					<div class="form2__column">
+						<div class="form2__row">
+							<label class="form2__label" for="last_name">Last Name*</label>
+							<input class="form2__input" id="last_name" type="text" name="last_name" required placeholder="Last Name">
+						</div>
+
+						<div class="form2__row">
+							<label class="form2__label" for="company">Company Name</label>
+							<input class="form2__input" id="company" type="text" name="company" placeholder="Company (optional)">
+						</div>
+
+						<div class="form2__row">
+							<label class="form2__label" for="apartment">Apt, suite, unit</label>
+							<input class="form2__input" id="apartment" type="number" name="apartment" placeholder="apartment, suite, unit, etc. (optional)">
+						</div>
+
+						<div class="form2__row">
+							<label class="form2__label" for="state">State*</label>
+							<select class="form2__input" id="state" name="state">
+								<option class="form2__input" value="state1">State 1</option>
+								<option class="form2__input" value="state2">State 2</option>
+								<option class="form2__input" value="state3">State 3</option>
+								<option class="form2__input" value="state4">State 4</option>
+							 </select>
+						</div>
+
+						<div class="form2__row">
+							<label class="form2__label" for="postal_code">Postal Code*</label>
+  							<input  class="form2__input" type="number" id="postal_code" required name="postal_code" placeholder="Postal Code">
+						</div>
+					</div>
+				</div>
+				<!-- ____________________column 2______________________ -->
+				<!-- ____________________textarea______________________ -->
+				<div class="form2__row-full">
+					<label class="form2__label form2__label--block" for="delivery_instruction">Delivery Instruction</label>
+					<textarea class="form2__textarea" name="delivery_instruction" id="delivery_instruction" placeholder="Delivery Instruction" cols="30" rows="10"></textarea>
+				</div>
+				<!-- ____________________textarea______________________ -->
+				<!-- ___________________checkboxes_____________________ -->
+				<div class="form2__checkboxes">
+					<div class="form2__checkbox checkbox">
+						<input class="checkbox-input" type="checkbox" id="option1" name="option1" value="value1">
+						<label class="checkbox-text" for="option1">Set as default shipping address</label>
+					</div>
+
+					<div class="form2__checkbox checkbox">
+						<input class="checkbox-input" type="checkbox" id="option2" name="option2" value="value1">
+						<label class="checkbox-text" for="option2">Set as default shipping address</label>
+					</div>
+				</div>	
+				<!-- ___________________checkboxes_____________________ -->
+				<!-- ____________________buttons_______________________ -->
+				<div class="form2__buttons">
+					<button class="form2__button" type="submit">Save</button>
+					<button class="form2__button" type="button">Cancel</button>
+				</div>
+				<!-- ____________________buttons_______________________ -->
+			</form>
+		</div>
+		<!-- #########################################container 2 END ######################################### -->
+
+
+
+		
+	</div>
+</body>
+</html>
+
+
