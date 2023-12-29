@@ -1,0 +1,109 @@
+@import url("reset.css");
+@import url("style.css");
+
+/* Шрифт для хедера */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Шрифт заголовка h1 */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+/* font-family: 'DM Serif Text', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+/* font-family: 'Cormorant Infant', serif; */
+
+
+
+.earrings {
+	color: #FFF;
+	font-style: normal;
+
+	padding: 94px 5px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background: #0E333D;
+}
+.earrings__container {
+	max-width: 1630px;
+}
+.earrings__title {
+	text-align: center;
+	font-family: 'DM Serif Text', serif;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 127%;
+
+	margin-bottom: 23px;
+}
+.earrings__subtitle {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 127%;
+
+	margin-bottom: 34px;
+}
+.earrings__list {
+	display: flex;
+	gap: 41px;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin-bottom: 77px;
+}
+.earrings__link {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 127%;
+}
+.earrings__link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.earrings__box {
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.earrings__item {
+	display: flex;
+	flex-direction: column;
+
+	font-family: 'Cormorant Infant', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 140%;
+}
+.earrings__imagebox {
+	min-height: 271px;
+	min-width: 270px;
+	border-radius: 5px;
+	margin-bottom: 0px;
+	background-color: #0E333D;
+
+	margin-bottom: 17px;
+}
+.earrings__img {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 271 / 270;
+	object-fit: cover;
+	
+
+	
+}
+.earrings__img:hover {
+	opacity: 0.5;
+}
+.earrings__name {
+	margin-bottom: 4px;
+}
+.earrings__name:hover {
+	text-decoration: underline;
+}
