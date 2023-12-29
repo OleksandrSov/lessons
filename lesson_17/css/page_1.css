@@ -1,0 +1,113 @@
+/* @import url("reset.css"); */
+@import url("style.css");
+
+/* Шрифт для хедера */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/* Шрифт заголовка h1 */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+
+.wrapper {
+	min-height: auto;
+	padding: 0 15px;
+}
+.popular-products--container {
+	max-width: 1167px;
+	margin: 0 auto;
+}
+.popular-products {
+	padding: 125px 0px 114px;
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	font-family: 'Inter', sans-serif;
+	color: #000;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%;
+
+}
+.popular-products__title {
+	font-family: 'DM Serif Text', serif;
+	font-size: 58px;
+	line-height: 100%;
+	align-self: start;
+
+	margin-bottom: 27px;
+}
+.popular-products__subtitle {
+	color: #606060;
+	font-size: 20px;
+	line-height: 180%;
+	align-self: start;
+
+	margin-bottom: 53px;
+}
+.products {
+	display: flex;
+	gap: 48px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.products__item {
+	max-width: 357px;
+}
+.products__imagebox {
+	margin-bottom: 16px;
+}
+.products__imagebox:hover {
+	opacity: 0.5;
+}
+/* ___________________зображення____________________ */
+.products__img {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 357 / 240;
+	object-fit: cover;
+}
+.products__subtitle {
+	font-family: 'DM Serif Text';
+	font-size: 24px;
+	line-height: 28.8px;
+
+	margin-bottom: 16px;
+}
+.products__text {
+	opacity: 0.7;
+	margin-bottom: 8px;
+}
+
+.products__more {
+	color: #F55529;
+	font-weight: 800;
+	line-height: 24px;
+	display: inline-flex;
+
+	min-width: 100%;
+
+	padding-right: 25px;
+	word-wrap: break-word;
+
+	background-image: url('../img/products/arrow.svg');
+	background-repeat: no-repeat;
+	background-position: 99% 50%;
+}
+
+.products__more:hover {
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+
+/* ________________________адаптив_________________________ */
+
+@media (max-width: 380px) {
+	.wrapper {
+		padding: 0 5px;
+	}
+}

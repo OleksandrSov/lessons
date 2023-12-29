@@ -1,0 +1,101 @@
+@import url("reset.css");
+@import url("style.css");
+
+/* Шрифт для хедера */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/* Шрифт заголовка h1 */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+/* font-family: 'DM Serif Text', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+/* font-family: 'Cormorant Infant', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+
+.wrapper {
+	min-height: auto;
+	padding: 0 15px;
+}
+.rings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	font-style: normal;
+}
+.rings-container {
+	max-width: 1175px;
+	margin: 193px auto 162px;
+}
+.rings__title {
+	text-align: center;
+	color: #291403;
+	font-family: 'DM Serif Text', serif;
+	font-size: 58px;
+	font-weight: 400;
+	line-height: 100%;
+
+	margin-bottom: 27px;
+}
+.rings__subtitle {
+	text-align: center;
+	color: #818181;
+	font-family: 'Cormorant Infant', serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 140%;
+
+	margin-bottom: 62px;
+}
+.rings__box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+
+	margin-bottom: 88px;
+}
+.rings__item {
+	display: flex;
+	flex-direction: column;
+
+	color: #000;
+	font-family: 'Cormorant Infant', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 140%;
+}
+.rings__img {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 271 / 270;
+	object-fit: cover;
+}
+.rings__img:hover {
+	opacity: 0.5;
+}
+.rings__name {
+	margin-bottom: 4px;
+}
+.rings__name:hover {
+	color: #FF7A49;
+	text-decoration: underline;
+}
+.rings__more {
+	text-transform: capitalize;
+	color: #FFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+
+	padding: 12px 42px;
+	background: #FF7A49;
+	border: 1px solid transparent;
+}
+
+.rings__more:hover {
+	color: #FF7A49;
+	border: 1px solid #FF7A49;
+	background: #ffffff;
+}
